@@ -73,35 +73,55 @@ task-tracker/
 │── README.md
 ```
 ## Clone Repository
+```bash
 git clone https://github.com/Mubashir1Shahzad/task-tracker-cli.git
 cd task-tracker-cli
+```
 
 ## Run Application
+```bash
 mvn compile exec:java -Dexec.mainClass="com.tasktracker.Main"
+```
 
 ## Add Task
+```bash
 mvn compile exec:java -Dexec.mainClass="com.tasktracker.Main" -Dexec.args="add 'Buy groceries'"
+```
 
 ## Update Task
+```bash
 mvn compile exec:java -Dexec.mainClass="com.tasktracker.Main" -Dexec.args="update 1 'Buy groceries and cook dinner'"
+```
 
 ## List All Tasks
+```bash
 mvn compile exec:java -Dexec.mainClass="com.tasktracker.Main" -Dexec.args="list"
+```
 
 ## List Completed Tasks
+```bash
 mvn compile exec:java -Dexec.mainClass="com.tasktracker.Main" -Dexec.args="list done"
+```
 
 ## List Pending Tasks
+```bash
 mvn compile exec:java -Dexec.mainClass="com.tasktracker.Main" -Dexec.args="list todo"
+```
 
 ## List In-Progress Tasks
+```bash
 mvn compile exec:java -Dexec.mainClass="com.tasktracker.Main" -Dexec.args="list in-progress"
+```
 
 ## Delete Task
+```bash
 mvn compile exec:java -Dexec.mainClass="com.tasktracker.Main" -Dexec.args="delete 1"
-
+```
 ## Mark In-Progress
+```bash
 mvn compile exec:java -Dexec.mainClass="com.tasktracker.Main" -Dexec.args="mark-in-progress 1"
-
+```
 ## Mark Completed
+```bash
 mvn compile exec:java -Dexec.mainClass="com.tasktracker.Main" -Dexec.args="mark-done 1"
+```
