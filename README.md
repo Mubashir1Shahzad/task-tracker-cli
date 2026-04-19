@@ -1,7 +1,8 @@
 # Task Tracker CLI (Java + Maven)
 
 A simple command-line Task Tracker application built in **Java** using **Maven** for dependency management and project structure.  
-This project is based on the Task Tracker challenge from roadmap.sh(https://roadmap.sh/projects/task-tracker).
+This project is based on the Task Tracker challenge from roadmap.sh.
+Porject URL: https://roadmap.sh/projects/task-tracker
 
 The application allows users to add, update, delete, and manage tasks directly from the terminal while storing data in JSON format.
 
