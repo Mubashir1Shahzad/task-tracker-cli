@@ -8,10 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AddTask {
-    public static void main(String[] args) {
-        AddTask addTask = new AddTask();
-        addTask.addTaskToJson("doing some other coding work");
-    }
 
     public AddTask() {}
 
