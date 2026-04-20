@@ -13,11 +13,6 @@ public class UpdateTask {
     ObjectMapper mapper = new ObjectMapper();
     ArrayList<Task> tasksList= new ArrayList<>();
 
-    public static void main(String[] args) {
-        UpdateTask t = new UpdateTask();
-        t.markInProgress(1);
-    }
-
     public UpdateTask() {
         try {
             tasksList = mapper.readValue(
