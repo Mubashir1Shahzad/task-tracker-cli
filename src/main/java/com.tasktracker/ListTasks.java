@@ -10,11 +10,6 @@ public class ListTasks {
     ObjectMapper mapper = new ObjectMapper();
     ArrayList<Task> tasksList = new ArrayList<>();
 
-    public static void main(String[] args) {
-        ListTasks lt = new ListTasks();
-        lt.listTasksDone();
-    }
-
     public ListTasks() {
         try {
             tasksList = mapper.readValue(
