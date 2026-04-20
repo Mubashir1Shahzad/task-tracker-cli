@@ -9,12 +9,7 @@ import java.util.ArrayList;
 public class DeleteTask {
     ObjectMapper mapper = new ObjectMapper();
     ArrayList<Task> tasksList = new ArrayList<>();
-
-    public static void main(String[] args) {
-        DeleteTask t = new DeleteTask();
-        t.deleteTask(1);
-    }
-
+    
     public DeleteTask() {
         try {
             tasksList = mapper.readValue(
