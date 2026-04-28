@@ -1,8 +1,4 @@
-# Task Tracker CLI (Java + Maven)
-
-This project is based on the roadmap.sh Task Tracker challenge.
-
-Project URL: https://roadmap.sh/projects/task-tracker
+# Task Tracker CLI
 
 The application allows users to add, update, delete, and manage tasks directly from the terminal while storing data in JSON format.
 
